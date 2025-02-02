@@ -1,1 +1,17 @@
-Aaryan
+.container-hang {
+    display: none;
+}
+
+#carousel_adef {
+    display: block;
+}
+
+@media screen and (max-width:550px) {
+    .container-hang {
+        display: block;
+    }
+    
+    #carousel_adef {
+        display: none;
+    }
+}
