@@ -21,6 +21,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/nicepage.css" media="screen">
 		<link rel="stylesheet" href="assets/css/slider.css" media="screen">
+		<link rel="stylesheet" href="assets/css/custom.css" media="screen">
 
 		<style>
 			* {
