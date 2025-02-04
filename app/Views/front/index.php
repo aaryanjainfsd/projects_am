@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include_once 'header.php'; ?>
 
-<head>
-	<!-- BASICS -->
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="referrer" content="origin">
-	<meta property="og:title" content="Home">
-	<meta name="theme-color" content="#3f62f1">
-	<meta property="og:type" content="website">
-	<meta data-intl-tel-input-cdn-path="intlTelInput/">
-	<meta name="generator" content="Nicepage 7.2.3, nicepage.com">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
-	<!-- FONTS -->
-	<link id="u-theme-google-font" rel="stylesheet"
-		href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-	<link id="u-page-google-font" rel="stylesheet"
-		href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-	<!-- CSS -->
-	<link rel="stylesheet" href="assets/css/nicepage.css" media="screen">
-	<link rel="stylesheet" href="assets/css/slider.css" media="screen">
-	<link rel="stylesheet" href="assets/css/custom.css" media="screen">
-
-</head>
-
-<body>
 
 	<header class="header">
-
 		<a href="#" class="logo"><img src="assets/images/logo.png" alt=""></a>
 
 		<nav class="navbar">
@@ -46,13 +18,10 @@
 			<a href="#" class="fas fa-shopping-cart"></a>
 			<div id="search-btn" class="fas fa-search"></div>
 		</div>
-
 	</header>
-	<!-- header section ends -->
 
-	<!-- banner -->
 	<!-- SLIDER -->
-	<section class="slider" style="background-color: white; height:">
+	<section class="slider" style="background-color: white;">
 		<div class="swiper-container main-slider loading">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
@@ -264,7 +233,6 @@
 	</section>
 
 	<section class="contact_us">
-
 	</section>
 
 	<footer class="footer">
@@ -278,8 +246,8 @@
 
 			<div class="footer-middle">
 				<div class="footer-section">
-					<h3>Head Office</h3>
-					<p>Via Meravigli, 2<br>20123 Milano I, Italy</p>
+					<h3>Design House</h3>
+					<p>11/28, Kaveri Path<br>Mansarover, Jaipur <br> 302020 (Rajasthan)</p><br>
 					<h4>Join Us</h4>
 					<div class="social-icons">
 						<a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -303,8 +271,8 @@
 
 				<div class="footer-section">
 					<h3>Contacts</h3>
-					<p>+91-9694066660</p>
-					<p><a href="mailto:hello@idealcoffeemachines.com">Hello@idealcoffeemachines.com</a></p>
+					<p>+91-9314507053</p>
+					<p><a href="mailto:hello@idealcoffeemachines.com">ritadas3@gmail.com</a></p>
 				</div>
 				<div class="footer-section">
 					<iframe
@@ -315,7 +283,7 @@
 			</div>
 
 			<div class="footer-bottom">
-				<p>RitaDesign © 2025. All rights reserved. Powered by GrowthGrids</p>
+				<p>RitaDesign © 2025. All rights reserved. Powered by TheFreelancerGroup</p>
 				<div class="footer-links">
 					<a href="#">Privacy Policies</a>
 					<a href="#">Refund Policies</a>
@@ -326,11 +294,4 @@
 		</div>
 	</footer>
 
-
-</body>
-
-<script class="u-script" type="text/javascript" src="assets/js/jquery.js" defer=""></script>
-<script class="u-script" type="text/javascript" src="assets/js/nicepage.js" defer=""></script>
-<script class="u-script" type="text/javascript" src="assets/js/slider.js" defer=""></script>
-
-</html>
+<?php include_once 'footer.php'; ?>
