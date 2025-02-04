@@ -17,66 +17,13 @@
 		<!-- FONTS -->
 		<link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
 		<link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		
 		<!-- CSS -->
 		<link rel="stylesheet" href="assets/css/nicepage.css" media="screen">
 		<link rel="stylesheet" href="assets/css/slider.css" media="screen">
 		<link rel="stylesheet" href="assets/css/custom.css" media="screen">
-
-		<style>
-			* {
-  padding: 0;
-  margin: 0;
-}
-.container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  max-width: 480px;
-  gap: 24px;
-  margin: 50px auto;
-  height: 2040px;
-  align-items: center;
-}
-
-.card {
-  width: 80%;
-  margin: 0 20px;
-  box-sizing: border-box;
-  background: #dedede;
-  min-height: 400px;
-  border-radius: 32px;
-  position: sticky;
-  
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  font-family : 'system-ui', sans-serif;
-  font-size: 90px;
-  font-weight: medium;
-  color: #FFF;
-  font-family: 
-}
-
-.one {
-  top: 50px;
-  background: #6b04fd;
-}
-.two {
-  top: 80px;
-  background: #5a03d5;
-}
-.three {
-  top: 110px;
-  background: #4b05ad;
-}
-
-.four {
-  top: 140px;
-  background: #2c0076;
-}
-
-		</style>
 	</head>
 
 	<body class="u-body u-xl-mode">
@@ -535,6 +482,93 @@
 			</div>
 		</footer>
 
+		<!-- Remove the container if you want to extend the Footer to full width. -->
+		<div class="container-fluid m-0 p-0">
+			<footer class="text-white text-center text-lg-start" style="background-color: #B78948;">
+				<!-- Grid container -->
+				<div class="container p-4">
+					<!--Grid row-->
+					<div class="row mt-4">
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-12 mb-4 mb-md-0" data-aos="fade-up-right">
+							<div class="footer-items">
+								<div class="logo pb-2">
+									<a href="https://freebw.com/templates/novas/index1.html"><img style=" width:140px; height:130px;" src="assets/photos/logo_t.png" alt="logo"></a>
+								</div>
+								<p>Welcome to SKJ, where elegance meets craftsmanship in every piece. Discover a world of timeless beauty and sophistication as you explore our unparalleled collection of jewelry designs.</p>
+								<div class="socials">
+									<a href="https://www.facebook.com/skjewellersjaipur/"><i class="fa-brands fa-facebook-f"></i></a>
+									<a href="https://wa.me/918504062109?text=Greetings S.K Jewellers, %0aI'm interested in your products. Can you please provide more info? %0aThank You."><i class="fa-brands fa-whatsapp"></i></a>
+									<a href="https://www.instagram.com/s.k_jewellers_jaipur/"><i class="fa-brands fa-instagram"></i></a>
+									<a href="tel:+918504062109"><i class="fa-solid fa-phone"></i></a>
+								</div>
+							</div>
+							<h5 class="text-uppercase mb-4">About company</h5>
+							<p>
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+								voluptatum deleniti atque corrupti.
+							</p>
+							<p>
+								Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+								molestias.
+							</p>
+							<div class="mt-4">
+								<!-- Facebook -->
+								<a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+								<!-- Dribbble -->
+								<a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
+								<!-- Twitter -->
+								<a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+								<!-- Google + -->
+								<a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-google-plus-g"></i></a>
+								<!-- Linkedin -->
+							</div>
+						</div>
+						<!--Grid column-->
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-6 mb-4 mb-md-0" data-aos="fade-up">
+							<h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+							<div class="form-outline form-white mb-4">
+								<input type="text" id="formControlLg" class="form-control form-control-lg" />
+								<label class="form-label" for="formControlLg">Search</label>
+							</div>
+							<ul class="fa-ul" style="margin-left: 1.65em;">
+								<li class="mb-3">
+									<span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+								</li>
+								<li class="mb-3">
+									<span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+								</li>
+								<li class="mb-3">
+									<span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+								</li>
+								<li class="mb-3">
+									<span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+								</li>
+							</ul>
+						</div>
+						<!--Grid column-->
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-6 mb-4 mb-md-0" data-aos="fade-up-left">
+							<h4 class=" text-white">Visit us today</h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.38700064793!2d75.81524237497348!3d26.922943159651723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db152dfc2b6b9%3A0xe21cccf796e1bee5!2sS.K%20Jewellers!5e0!3m2!1sen!2sin!4v1692475380797!5m2!1sen!2sin" class="pt-2" style=" width:100%; height:250px; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						
+						<!--Grid column-->
+					</div>
+					<!--Grid row-->
+				</div>
+				<!-- Grid container -->
+				<!-- Copyright -->
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+					© 2021 Copyright:
+					<a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+				</div>
+				<!-- Copyright -->
+			</footer>
+		</div>
+		<!-- End of .container -->
+
 		<section class="u-backlink u-clearfix u-grey-80">
 			<p class="u-text">
 				<span>This site was created with the </span>
@@ -549,4 +583,8 @@
 	<script class="u-script" type="text/javascript" src="assets/js/jquery.js" defer=""></script>
 	<script class="u-script" type="text/javascript" src="assets/js/nicepage.js" defer=""></script>
 	<script class="u-script" type="text/javascript" src="assets/js/slider.js" defer=""></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </html>
