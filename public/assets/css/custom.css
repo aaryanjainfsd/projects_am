@@ -424,6 +424,8 @@ html {
 @media screen and (max-width:550px) {
     .container-hang {
         display: block;
+        margin-top: 60px;
+        padding: 20px;
     }
 
     #carousel_adef {
