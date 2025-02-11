@@ -262,6 +262,10 @@
 		</div>
 	</section>
 
+	<section class="galleryContainer">
+
+	</section>
+
 	<section class="contact_us">
 	</section>
 
