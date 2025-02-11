@@ -1,156 +1,158 @@
 <?php include_once 'header.php'; ?>
 
 
-<header class="header">
-	<a href="#" class="logo"><img src="assets/images/logo.png" alt="Logo"></a>
+	<header class="header">
+		<a href="#" class="logo"><img src="assets/images/logo.png" alt="Logo"></a>
 
-	<nav class="navbar">
-		<div id="nav-close" class="fas fa-times"></div>
-		<a href="#home">Home</a>
-		<a href="#about">About</a>
-		<a href="#packages">Products</a>
-		<a href="#reviews">Reviews</a>
-		<a href="#blogs">Contact</a>
-	</nav>
+		<nav class="navbar">
+			<div id="nav-close" class="fas fa-times"></div>
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#packages">Products</a>
+			<a href="#reviews">Reviews</a>
+			<a href="#blogs">Contact</a>
+		</nav>
 
-	<div class="icons">
-		<div id="menu-btn" class="fas fa-bars"></div>
-		<!-- <a href="#" class="fas fa-shopping-cart"></a>
-		<div id="search-btn" class="fas fa-search"></div> -->
-	</div>
-</header>
+		<div class="icons">
+			<div id="menu-btn" class="fas fa-bars"></div>
+			<!-- <a href="#" class="fas fa-shopping-cart"></a>
+			<div id="search-btn" class="fas fa-search"></div> -->
+		</div>
+	</header>
 
-
-<!-- SLIDER -->
-<section class="slider mt-5" style="background-color: white;">
-	<div class="swiper-container main-slider loading">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Shaun Matthews</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+	<!-- SLIDER -->
+	<section class="slider mt-5" style="background-color: white;">
+		<div class="swiper-container main-slider loading">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_5.png)">
+						<img src="assets/images/Banner_5.png" class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Shaun Matthews</p>
+						<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type and scrambled it to make a type
+							specimen book.</span>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_4.png)">
+						<img src="assets/images/Banner_4.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Alexis Berry</p>
+						<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type and scrambled it to make a type
+							specimen book.</span>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_3.png)">
+						<img src="assets/images/Banner_3.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Billie Pierce</p>
+						<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type and scrambled it to make a type
+							specimen book.</span>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_2.png)">
+						<img src="assets/images/Banner_2.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Trevor Copeland</p>
+						<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type and scrambled it to make a type
+							specimen book.</span>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_1.png)">
+						<img src="assets/images/Banner_1.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Bernadette Newman</p>
+						<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type and scrambled it to make a type
+							specimen book.</span>
+					</div>
 				</div>
 			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Alexis Berry</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev swiper-button-white"></div>
+			<div class="swiper-button-next swiper-button-white"></div>
+		</div>
+		<!-- Thumbnail navigation -->
+		<div class="swiper-container nav-slider loading">
+			<div class="swiper-wrapper" role="navigation">
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_5.png)">
+						<img src="assets/images/Banner_5.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Shaun Matthews</p>
+					</div>
 				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Billie Pierce</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_4.png)">
+						<img src="assets/images/Banner_4.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Alexis Berry</p>
+					</div>
 				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Trevor Copeland</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_3.png)">
+						<img src="assets/images/Banner_3.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Billie Pierce</p>
+					</div>
 				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Bernadette Newman</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_2.png)">
+						<img src="assets/images/Banner_2.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Trevor Copeland</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<figure class="slide-bgimg"
+						style="background-image:url(assets/images/Banner_1.png)">
+						<img src="assets/images/Banner_1.png"
+							class="entity-img" />
+					</figure>
+					<div class="content">
+						<p class="title">Bernadette Newman</p>
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- If we need navigation buttons -->
 		<div class="swiper-button-prev swiper-button-white"></div>
 		<div class="swiper-button-next swiper-button-white"></div>
-	</div>
-	<!-- Thumbnail navigation -->
-	<div class="swiper-container nav-slider loading">
-		<div class="swiper-wrapper" role="navigation">
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Shaun Matthews</p>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Alexis Berry</p>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Billie Pierce</p>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Trevor Copeland</p>
-				</div>
-			</div>
-			<div class="swiper-slide">
-				<figure class="slide-bgimg"
-					style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
-					<img src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
-						class="entity-img" />
-				</figure>
-				<div class="content">
-					<p class="title">Bernadette Newman</p>
-				</div>
-			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
 <section class="products_cards">
 	<p>The Perfect Look</p>
