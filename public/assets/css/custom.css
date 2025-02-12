@@ -144,10 +144,6 @@ html {
     transform: scale(1.15);
 }
 
-.what_containeredd {
-    display: block;
-}
-
 .what_we_do {
     padding-inline: 100px;
     padding-block: 60px;
@@ -212,6 +208,13 @@ html {
     font-size: 45px;
     text-align: left;
     font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.what_container p {
+    font-size: 15px;
+    line-height: 140%;
+    margin-bottom: 12px;
 }
 
 .main_cards_who {
@@ -244,15 +247,25 @@ html {
 }
 
 .galleryContainer {
-    
+    background: url('../images/ii.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.contact_us {
-    background: #9C6644;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
+.galleryContainer h1 {
+    font-family: "Marcellus", serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
+
 
 /* Footer Styling */
 .footer {
@@ -260,6 +273,7 @@ html {
     color: #fff;
     padding: 40px 80px;
     font-family: Arial, sans-serif;
+    position: relative;
 }
 
 /* Top Section */
@@ -354,7 +368,15 @@ html {
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 991px) {
+    .galleryContainer {
+        padding: 20px;
+    }
+
+    .galleryContainer h1 {
+        font-size: 28px;
+        text-align: center;
+    }
 
     .products_cards {
         padding-inline: 20px;
@@ -365,8 +387,28 @@ html {
         height: 30vh;
     }
 
-    .what_containeredd {
-        display: none;
+    .what_we_do {
+        flex-direction: column;
+        padding: 20px;
+        background-size: cover;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .what_container {
+        width: 100%;
+    }
+
+    .main_cards_who {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .images_what {
+        position: relative;
+        top: 0;
     }
 
     .phone_mobilewhat {
@@ -377,9 +419,9 @@ html {
         top: 10%;
     }
 
-.mobile_produuct {
-    position: relative;
-}
+    .mobile_produuct {
+        position: relative;
+    }
 
     .cards_productsCont {
         grid-template-columns: 1fr 1fr;
@@ -393,7 +435,7 @@ html {
         position: fixed;
         top: 0;
         left: -100%;
-        width: 60%;
+        width: 90%;
         height: 100vh;
         background: #fff;
         flex-direction: column;
@@ -421,6 +463,7 @@ html {
     /* Show Menu When Active */
     .header .navbar.active {
         left: 0;
+        display: flex;
     }
 
     /* Show Menu Button */
@@ -457,12 +500,90 @@ html {
     .footer-links {
         margin-top: 10px;
     }
+
+    .tabs-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .gallery_dta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .gallery img {
+        aspect-ratio: 1;
+        width: 100% !important;
+        height: 100% !important;
+    }
 }
 
 @media (max-width: 1024px) {
     .header {
         padding: 0.5rem 5%;
     }
+}
+
+
+.tabs-container {
+    display: flex;
+    background: #ffd18d;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.tab {
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.tab.active {
+    background: #000;
+    color: white;
+}
+
+.gallery {
+    margin-top: 20px;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+/* mansi iloveyou */
+.gallery.active {
+    display: block;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.whats_appBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+}
+
+.whats_appBtn button {
+    border: 1px solid green;
+    border-radius: 10px;
+    background: #fff;
+    color: green;
+    padding: 8px 12px;
+    font-size: 14px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 
