@@ -566,14 +566,14 @@ html {
     border-radius: 10px;
 }
 
-.whatsapp_Btn {
+.whats_appBtn {
     position: fixed;
     bottom: 20px;
     right: 10px;
     z-index: 99;
 }
 
-.whatsapp_Btn button {
+.whats_appBtn button {
     border: 1px solid green;
     border-radius: 10px;
     background: #fff;
