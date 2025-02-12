@@ -383,7 +383,7 @@
 	</div>
 </footer>
 
-<div class="whats_appBtn">
+<div class="whatsapp_Btn">
 	<button> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 258">
 			<defs>
 				<linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
