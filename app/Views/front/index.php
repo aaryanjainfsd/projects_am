@@ -2,7 +2,7 @@
 
 
 <header class="header">
-	<a href="#" class="logo"><img src="assets/images/logo.png" alt="Logo"></a>
+	<a href="#" class="logo"><img src="assets/images/logoPhotos/logo_black.png" alt="Logo"></a>
 
 	<nav class="navbar">
 		<div id="nav-close" class="fas fa-times"></div>
@@ -22,59 +22,50 @@
 <section class="slider mt-5" style="background-color: white;">
 	<div class="swiper-container main-slider loading">
 		<div class="swiper-wrapper">
+
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_5.png)">
-					<img src="assets/images/Banner_5.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide1" >
+					<img class="entity-img bgSlide1"/>
 				</figure>
 				<div class="content">
-					<p class="title">Shaun Matthews</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+					<p class="title"></p>
+					<span class="caption"></span>
 				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_4.png)">
-					<img src="assets/images/Banner_4.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide2" >
+					<img class="entity-img bgSlide2"/>
 				</figure>
 				<div class="content">
-					<p class="title">Alexis Berry</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+					<p class="title"></p>
+					<span class="caption"></span>
 				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_3.png)">
-					<img src="assets/images/Banner_3.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide3" >
+					<img class="entity-img bgSlide3"/>
 				</figure>
 				<div class="content">
-					<p class="title">Billie Pierce</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+					<p class="title"></p>
+					<span class="caption"></span>
 				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_2.png)">
-					<img src="assets/images/Banner_2.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide4" >
+					<img class="entity-img bgSlide4"/>
 				</figure>
 				<div class="content">
-					<p class="title">Trevor Copeland</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+					<p class="title"></p>
+					<span class="caption"></span>
 				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_1.png)">
-					<img src="assets/images/Banner_1.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide5" >
+					<img class="entity-img bgSlide5"/>
 				</figure>
 				<div class="content">
-					<p class="title">Bernadette Newman</p>
-					<span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the
-						1500s, when an unknown printer took a galley of type and scrambled it to make a type
-						specimen book.</span>
+					<p class="title"></p>
+					<span class="caption"></span>
 				</div>
 			</div>
 		</div>
@@ -86,44 +77,29 @@
 	<div class="swiper-container nav-slider loading">
 		<div class="swiper-wrapper" role="navigation">
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_5.png)">
-					<img src="assets/images/Banner_5.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide1" >
+					<img class="entity-img bgSlide1"/>
 				</figure>
-				<div class="content">
-					<p class="title">Shaun Matthews</p>
-				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_4.png)">
-					<img src="assets/images/Banner_4.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide2">
+					<img class="entity-img bgSlide2"/>
 				</figure>
-				<div class="content">
-					<p class="title">Alexis Berry</p>
-				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_3.png)">
-					<img src="assets/images/Banner_3.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide3">
+					<img class="entity-img bgSlide3"/>
 				</figure>
-				<div class="content">
-					<p class="title">Billie Pierce</p>
-				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_2.png)">
-					<img src="assets/images/Banner_2.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide4">
+					<img class="entity-img bgSlide4"/>
 				</figure>
-				<div class="content">
-					<p class="title">Trevor Copeland</p>
-				</div>
 			</div>
 			<div class="swiper-slide">
-				<figure class="slide-bgimg" style="background-image:url(assets/images/Banner_1.png)">
-					<img src="assets/images/Banner_1.png" class="entity-img" />
+				<figure class="slide-bgimg bgSlide5">
+					<img class="entity-img bgSlide5"/>
 				</figure>
-				<div class="content">
-					<p class="title">Bernadette Newman</p>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -138,23 +114,22 @@
 	<h3>Our Product Category</h3>
 	<div class="cards_productsCont">
 		<div>
-			<img class="" src="assets/images/c7d0df07-4138-42be-9d65-87e10eb4b975.jpeg">
+			<img class="" src="assets/images/productPhotos/ProductCategory1.png">
 		</div>
 		<div>
-			<img class="" src="assets/images/close-up-hand-holding-nail-file_23-2149171331.jpg">
+			<img class="" src="assets/images/productPhotos/ProductCategory2.png">
 		</div>
 		<div>
-			<img class=""
-				src="assets/images/woman-visiting-cosmetologist-making-rejuvenation-procedures_1303-26055.jpg">
+			<img class="" src="assets/images/productPhotos/ProductCategory3.png">
 		</div>
 		<div>
-			<img class="" src="assets/images/vbvbbv.jpg">
+			<img class="" src="assets/images/productPhotos/ProductCategory4.png">
 		</div>
 		<div>
-			<img class="" src="assets/images/young-woman-doing-her-morning-routine_23-2148837463.jpg">
+			<img class="" src="assets/images/productPhotos/ProductCategory5.png">
 		</div>
 		<div>
-			<img class="" src="assets/images/close-up-hand-holding-nail-file_23-2149171331.jpg">
+			<img class="" src="assets/images/productPhotos/ProductCategory6.png">
 		</div>
 	</div>
 </section>
@@ -176,40 +151,28 @@
 
 			<div class="main_cards_who">
 				<div class="cards_whatDo">
-					<h3>Kurti Cotton</h3>
-					<span>Choosing Ideal Coffee Machines, assembled in India, over imported ones has given us more
-						control and peace of mind. The technology is world-class, and having a locally assembled brand
-						means faster service and better value for money.</span>
+					<h3 class="mb-4 pb-4 text-center">Duppata & Stalls</h3>
+					<span class="d-block">Elevate your ensemble with our handcrafted Khadi dupattas and stoles, woven with care and dyed using natural elements. Each piece embodies timeless elegance, offering a perfect blend of tradition and sustainability. Soft, breathable, and ethically made, our collection adds a touch of grace to any outfit.</span>
 				</div>
 				<div class="cards_whatDo">
-					<h3>Kurti Cotton</h3>
-					<span>Choosing Ideal Coffee Machines, assembled in India, over imported ones has given us more
-						control and peace of mind. The technology is world-class, and having a locally assembled brand
-						means faster service and better value for money.</span>
+					<h3 class="mb-4 pb-4 text-center">Reversible Quilted Jackets</h3>
+					<span class="d-block">Stay cozy and stylish with our reversible quilted jackets, crafted from pure Khadi fabric. Designed for versatility, these jackets showcase intricate hand-stitching and natural dyes, ensuring both comfort and sustainability. Whether you wear it inside out or as is, each jacket is a testament to eco-conscious craftsmanship.</span>
 				</div>
 				<div class="cards_whatDo">
-					<h3>Kurti Cotton</h3>
-					<span>Choosing Ideal Coffee Machines, assembled in India, over imported ones has given us more
-						control and peace of mind. The technology is world-class, and having a locally assembled brand
-						means faster service and better value for money.</span>
+					<h3 class="mb-4 pb-4 text-center">Vest Coats</h3>
+					<span class="d-block">Redefine sophistication with our Khadi vest coats, tailored for effortless elegance. Made from handwoven, organic fabrics, these coats offer a structured yet breathable fit, perfect for layering. Whether for casual or formal wear, they reflect the richness of heritage fashion with a contemporary touch.</span>
 				</div>
 				<div class="cards_whatDo">
-					<h3>Kurti Cotton</h3>
-					<span>Choosing Ideal Coffee Machines, assembled in India, over imported ones has given us more
-						control and peace of mind. The technology is world-class, and having a locally assembled brand
-						means faster service and better value for money.</span>
+					<h3 class="mb-4 pb-4 text-center">Crafted Bags</h3>
+					<span class="d-block">Our Khadi-crafted bags are more than just accessories—they are a statement of sustainability and tradition. Hand-spun and naturally dyed, these bags blend style with purpose. Durable, eco-friendly, and uniquely designed, they make the perfect companion for your everyday essentials.</span>
 				</div>
 				<div class="cards_whatDo">
-					<h3>Kurti Cotton</h3>
-					<span>Choosing Ideal Coffee Machines, assembled in India, over imported ones has given us more
-						control and peace of mind. The technology is world-class, and having a locally assembled brand
-						means faster service and better value for money.</span>
+					<h3 class="mb-4 pb-4 text-center">Short Kurti & Tops</h3>
+					<span class="d-block">Celebrate effortless style with our collection of short Kurtis and tops, made from 100% pure Khadi. Light, airy, and gentle on the skin, they provide ultimate comfort while embracing artisanal craftsmanship. With elegant patterns and earthy hues, these pieces are a wardrobe must-have.</span>
 				</div>
 				<div class="cards_whatDo">
-					<h3>Kurti Cotton</h3>
-					<span>Choosing Ideal Coffee Machines, assembled in India, over imported ones has given us more
-						control and peace of mind. The technology is world-class, and having a locally assembled brand
-						means faster service and better value for money.</span>
+					<h3 class="mb-4 pb-4 text-center">Kurtas</h3>
+					<span class="d-block">Experience the purity of Khadi with our handcrafted Kurtas, designed for timeless appeal. Each piece is woven with love, using organic fibers and natural dyes to create breathable and skin-friendly attire. Perfect for every season, our Kurtas reflect the beauty of minimalism and sustainability.</span>
 				</div>
 			</div>
 		</div>
@@ -217,7 +180,7 @@
 </div>
 
 <section class="galleryContainer">
-	<h1>Explore Our Gallery</h1>
+	<h1>Explore Our Work</h1>
 
 	<div class="tabs-container">
 		<div class="tab active" data-category="all">All</div>
@@ -228,12 +191,10 @@
 
 	<div class="gallery active" id="all">
 		<div class="gallery_dta">
-			<img src="https://media.istockphoto.com/id/2065674519/photo/rolling-says-macro.webp?a=1&b=1&s=612x612&w=0&k=20&c=Da21SecOXwrJiU0nZcofNDiPGvMghXfmKvqkr-C2STc="
-				alt="Music">
-			<img src="https://media.istockphoto.com/id/2065674519/photo/rolling-says-macro.webp?a=1&b=1&s=612x612&w=0&k=20&c=Da21SecOXwrJiU0nZcofNDiPGvMghXfmKvqkr-C2STc="
-				alt="Photos">
-			<img src="https://media.istockphoto.com/id/2065674519/photo/rolling-says-macro.webp?a=1&b=1&s=612x612&w=0&k=20&c=Da21SecOXwrJiU0nZcofNDiPGvMghXfmKvqkr-C2STc="
-				alt="Videos">
+			<img src="assets/images/galleryPhotos/gallery1.jpeg" alt="Music">
+			<img src="assets/images/galleryPhotos/gallery2.jpeg" alt="Photos">
+			<img src="assets/images/galleryPhotos/gallery3.jpeg" alt="Videos">
+			<img src="assets/images/galleryPhotos/gallery4.jpeg" alt="Videos">
 		</div>
 	</div>
 
@@ -264,7 +225,6 @@
 		</div>
 	</div>
 </section>
-
 
 <div class="what_containeredd">
 	<section class="what_we_do">
@@ -328,7 +288,7 @@
 	<div class="footer-container">
 		<div class="footer-top">
 			<div class="logo">
-				<img src="assets/images/RitaDesign.png" alt="IDEAL Logo">
+				<img src="assets/images/logoPhotos/logo_yellow.png" alt="IDEAL Logo">
 			</div>
 			<p class="company-description">A brief description about the company</p>
 		</div>
@@ -404,6 +364,7 @@
 		</svg> Talk to an Expert</button>
 </div>
 
+<?php include_once 'footer.php'; ?>
 <script>
 	document.querySelectorAll(".tab").forEach(tab => {
 		tab.addEventListener("click", function () {
@@ -419,9 +380,6 @@
 			document.getElementById(category).classList.add("active");
 		});
 	});
-</script>
-
-<script>
 
 	let menu = document.querySelector('.navbar');
 	let menuBtn = document.querySelector('#menu-btn');
@@ -434,6 +392,31 @@
 	closeBtn.onclick = () => {
 		menu.classList.remove('active');
 	}
-</script>
 
-<?php include_once 'footer.php'; ?>
+
+	function sliderResponsive()
+	{
+		let screenWidth = $(window).width();
+		for (let j = 1; j <= 5; j++) {
+			var see = ".bgSlide" + j;
+			$(see).each(function () {
+				var tagName = $(this).prop("tagName");
+				let imagePath = screenWidth < 770 
+					? `assets/images/bannerPhotos/mobile/bannerMobile${j}.png`
+					: `assets/images/bannerPhotos/desktop/bannerDesktop${j}.png`;
+
+				if (tagName === "FIGURE") {
+					$(this).css("background-image", `url(${imagePath})`);
+				}
+				if (tagName === "IMG") {
+					$(this).attr("src", imagePath);
+				}
+			});
+		}
+	}
+
+	// Call the function on page load and window resize
+	$(document).ready(sliderResponsive);
+	$(window).resize(sliderResponsive);
+
+</script>
