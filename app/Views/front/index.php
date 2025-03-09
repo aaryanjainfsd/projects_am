@@ -232,45 +232,38 @@
 	<section class="what_we_do">
 		<div class="what_container">
 			<h1>About Us</h1>
-			<p>Rita Das, owner of the brand Rita Design, is today a well-recognised name in the field of modern,
-				fashionable and versatile Khadi garments.
-			</p>
-			<p>Rita has traversed a journey of over three decades where she has played with garments and design in
-				various capacities. What has remained constant is her love for Khadi from her days at the South Delhi
-				Polytechnic for Women as a student of textile designing. However, it was only in the year-2002 that Rita
-				jumped into a mission to make a difference in the field. As an entrepreneur, she independently started
-				off with the PRADIP and SFRUTI projects commissioned by the Khadi and Village Industries Commission
-				(KVIC), Government of India. These projects gave her the opportunity to work on the complete lifecycle
-				of fabric development to ready-to-wear products for the domestic and international markets.
-			</p>
-			<p>Rita’s consummate relationship with the KVIC grew stronger over the years; with greater demands, came
-				greater production requirements. Over the years, she set up her full-fledged production Unit in Jaipur
-				employing local artisans from the area. Rita continued to experiment with her design with Khadi to
-				create patterns and designs catering to modern taste. Her relentless pursuit for excellence and
-				promoting social good qualified for the Prime Minister’s Employment Generation Programme during the
-				20014 to 2015. Rita started exhibiting her products in parallel in different parts of India and
-				internationally. Catering to contemporary tastes and high quality saw her social enterprise grow from
-				strength-to-strength. Her enterprise employs around 30 artisans from nearby villages with a majority of
-				women artisans. In 2018, Rita was recognised with the covered Khadi Mark by KVIC that allows her to
-				create and market her own branded Khadi products. She is also empanelled by the Khadi Gramodyog Bhawan,
-				Khadi and Village Industries Commission, Government of India.
-			</p>
-			<p>Rita has participated in several prestigious commissioned projects in the national and international
-				arena. She has served as member of the panel of judges for the National Awards for Artisans Handloom and
-				Handicrafts, and has been part of the design studio in Jakarta (Indonesia).
-			</p>
-			<p>In 2019, Rita showcased her work in an independent stall at the prestigious Vibrant Gujarat summit.
-				Her work and designs attracted attention from several international buyers during the summit. Vibrant
-				Gujarat offered her the conducive platform to take her work from India to the world. </p>
-			<p>Rita’s story is one of relentless passion and pursuit for excellence for Khadi that not only create
-				style, but enables employment and livelihoods.
-				<br />
-				Rita's current focus is breathing in new life to Khadi with vibrant ideas and bold creations, under her
-				brand, Rita Design. Her work has continued to contribute immensely to empower artisans who she works
-				with in remote places of Rajasthan.
-			</p>
-
+			
+			<h2>Rita Das – The Visionary Behind Rita Design</h2>
+			
+			<h3>Journey & Passion for Khadi</h3>
+			<ul>
+				<li>Over three decades of experience in garment design, with a deep-rooted love for Khadi since her student days at South Delhi Polytechnic for Women.</li>
+				<li>In 2002, she ventured into the Khadi industry with a mission to innovate and uplift artisans.</li>
+			</ul>
+			
+			<h3>Entrepreneurial Milestones</h3>
+			<ul>
+				<li>Started independently with <strong>PRADIP</strong> and <strong>SFRUTI</strong> projects under <strong>KVIC, Govt. of India</strong>.</li>
+				<li>Established a <strong>production unit in Jaipur</strong>, employing local artisans, particularly women.</li>
+				<li>Recognized under the <strong>Prime Minister’s Employment Generation Programme (2014-2015)</strong>.</li>
+				<li>Earned the prestigious <strong>Khadi Mark (2018)</strong>, allowing her to brand and market Khadi products independently.</li>
+			</ul>
+			
+			<h3>National & International Recognition</h3>
+			<ul>
+				<li>Served as a <strong>judge for the National Awards for Artisans (Handloom & Handicrafts)</strong>.</li>
+				<li>Contributed to a <strong>design studio in Jakarta, Indonesia</strong>.</li>
+				<li>Showcased her work at <strong>Vibrant Gujarat 2019</strong>, attracting international buyers.</li>
+			</ul>
+			
+			<h3>Impact & Vision</h3>
+			<ul>
+				<li>Employs around <strong>30 artisans</strong>, empowering rural communities in Rajasthan.</li>
+				<li>Continues to modernize Khadi with <strong>bold, contemporary designs</strong> under <strong>Rita Design</strong>.</li>
+				<li>Committed to sustaining livelihoods and promoting Khadi on a global scale.</li>
+			</ul>
 		</div>
+
 		<div class="images_what">
 			<img src="assets/images/aboutme.jpg" class="mainIMg" alt="">
 			<div>
