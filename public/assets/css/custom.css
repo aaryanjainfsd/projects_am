@@ -145,11 +145,11 @@ html {
 }
 
 .what_we_do {
-    padding-inline: 100px;
-    padding-block: 60px;
+    padding-inline: 50px;
+    padding-block: 40px;
     display: flex;
     align-items: start;
-    gap: 80px;
+    gap: 65px;
     background: url(../images/bg2.jpg);
     background-size: 100%;
 }
@@ -160,29 +160,20 @@ html {
     top: 100px;
 }
 
-.full-video {
-    width: 100%;
-    height: 100vh; /* Full height of the viewport */
-    object-fit: cover; /* Ensures the video covers the entire area */
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
 .vectorOne {
     position: absolute;
     height: 25px;
-    top: 0;
+    top: -1px;
     object-fit: contain;
-    left: 44%;
+    left: 40%;
 }
 
 .vectorTwo {
     position: absolute;
     height: 25px;
-    bottom: 0;
+    bottom: -1px;
     object-fit: contain;
-    left: 38%;
+    left: 40%;
 }
 
 .vectorThree {
@@ -196,7 +187,7 @@ html {
 .vectorFour {
     position: absolute;
     width: 25px;
-    right: 0;
+    right: -1px;
     object-fit: contain;
     top: 44%;
 }
@@ -209,7 +200,7 @@ html {
 }
 
 .what_container {
-    width: 75%;
+    width: 70%;
 }
 
 .what_container h1 {
@@ -249,7 +240,7 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 140%;
-    padding:10px;
+    padding: 10px;
 }
 
 .phone_mobilewhat {
@@ -564,15 +555,18 @@ html {
     flex-wrap: wrap;
     gap: 15px;
 }
+
 /* mansi iloveyou */
 .gallery.active {
     display: block;
 }
+
 .gallery_dta {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
+
 .gallery img {
     width: 300px;
     height: 300px;
